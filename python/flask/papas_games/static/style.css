@@ -1,0 +1,36 @@
+body {
+  background-color: #888;
+}
+
+/* Estilos para el contenedor de botones */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Espacio entre las imágenes */
+}
+
+/* Estilos para el contenedor de botones */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Espacio entre las imágenes */
+}
+
+/* Estilos para las imágenes de los logos */
+.button-container img {
+  width: 150px; /* Ancho deseado para las imágenes */
+  height: auto; /* Altura automática para mantener la proporción */
+  max-width: 100%; /* Hace que las imágenes no se estiren más allá de su tamaño original */
+  max-height: 100px; /* Altura máxima para las imágenes */
+  object-fit: contain; /* Mantiene la proporción y asegura que la imagen se ajuste sin distorsionarse */
+}
+
+/* Media query para ajustar el número de columnas a 4 */
+@media (max-width: 800px) {
+  .button-container img {
+    width: 100px; /* Reducir ligeramente el ancho en pantallas más pequeñas */
+    max-height: 80px; /* Reducir también la altura */
+  }
+}

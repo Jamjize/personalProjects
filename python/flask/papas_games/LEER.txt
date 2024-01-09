@@ -1,0 +1,22 @@
+Antes de empezar, tenés que activar la ejecución de scripts (código)
+ 1. Abrir una shell de PowerShell como administrador
+  * Se logra yendo al buscador de windows (abajo a la izquierda)
+  * y escribiendo: powershell. al encontrarlo, haces click derecho
+  * y, ejecutar como administrador
+ 2. Pegas esto: Set-ExecutionPolicy Unrestricted,  y le das a Enter
+ 3. Si te pide confirmación: dale a la 'S' o 'Y' para permitir la ejecución.
+
+---------------------------------------------------------------------------------
+
+Ejecutar start.bat (doble click)
+
+Se instalarán lo necesario para la app
+
+luego cuando termine la instalación.
+
+Ejecuta de nuevo start.bat para jugar. Todas las veces que quieras
+
+Si quieres, puede hacer un acceso deirecto de "start.bat" y llevar el
+acceso directo al escritorio para poder jugar.
+
+Al terminar, puedes cerrar la ventana de la terminal
