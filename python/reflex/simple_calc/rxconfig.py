@@ -1,5 +1,5 @@
 import reflex as rx
 
 config = rx.Config(
-    app_name="simpleCalc",
+    app_name="simple_calc",
 )
